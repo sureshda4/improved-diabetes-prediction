@@ -11,18 +11,22 @@ This project provides an **improved machine learning approach** to diabetes pred
 - **Production-ready deployment pipeline** with model persistence
 
 ## 📊 Dataset
-- **Source**: Pima Indians Diabetes Database from Kaggle
-- **Samples**: 768 patients
-- **Features**: 8 original + 7 engineered features
-- **Target**: Binary classification (Diabetes/No Diabetes)
 
-## 🔧 Technical Stack
-- **Python 3.x**
-- **pandas 2.2.3** - Data manipulation
-- **scikit-learn 1.6.1** - Machine learning
-- **numpy 2.1.3** - Numerical computing
-- **matplotlib & seaborn** - Data visualization
-- **joblib** - Model persistence
+- **Source:** [Pima Indians Diabetes Database (Kaggle)](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+- **Samples:** 768 patients
+- **Features:** 8 original + 7 engineered
+- **Target:** Binary outcome (Diabetes / No Diabetes)
+
+---
+
+## 🛠️ Technical Stack
+
+- Python 3.x
+- pandas, numpy (data processing)
+- scikit-learn (modeling & validation)
+- matplotlib, seaborn (visualization)
+- joblib (model serialization)
+
 
 ## 🏆 Model Performance
 
